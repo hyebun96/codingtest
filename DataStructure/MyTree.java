@@ -1,4 +1,4 @@
-package CodingTest;
+package DataStructure;
 
 public class MyTree {
     Node head = null;

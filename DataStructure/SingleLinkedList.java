@@ -1,4 +1,4 @@
-package CodingTest;
+package DataStructure;
 
 public class SingleLinkedList<T> {
     public Node<T> head = null;

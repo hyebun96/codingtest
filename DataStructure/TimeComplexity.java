@@ -1,4 +1,4 @@
-package CodingTest;
+package DataStructure;
 
 public class TimeComplexity {
     // 시간 복잡도의 이해를 위해 간단한 Test 코드 작성해보기

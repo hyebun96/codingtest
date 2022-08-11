@@ -1,4 +1,4 @@
-package CodingTest;
+package DataStructure;
 
 public class MyHashTable_LinearProbing {
 

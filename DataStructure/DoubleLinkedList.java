@@ -1,4 +1,4 @@
-package CodingTest;
+package DataStructure;
 
 public class DoubleLinkedList<T> {
     public Node<T> head = null;

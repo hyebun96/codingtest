@@ -1,8 +1,6 @@
-package CodingTest;
+package DataStructure;
 
-import java.lang.invoke.MutableCallSite;
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 public class MyQueue<T> {   // 객체를 생성할 때, 원하는 변수를 받을 수 있도록 제너릭 처리
     private ArrayList<T> queue = new ArrayList<T>();
