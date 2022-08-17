@@ -1,14 +1,19 @@
 package Algorithm;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Edge implements Comparable<Edge>{
-    public Integer distance;
-    public String vertex;
+    public Integer distance;    // 거리
+    public String vertex;   // 가중치
 
     public Edge(Integer distance, String vertex) {
         this.distance = distance;
         this.vertex = vertex;
+    }
+
+    public String toString(){
+        return "vertex : " + this.vertex + ", distance : " + this.distance;
     }
 
     @Override
@@ -22,7 +27,13 @@ public class Edge implements Comparable<Edge>{
         Edge edge3 = new Edge(13, "A");
 
         Edge[] edges = new Edge[]{edge1, edge2, edge3};
-        Arrays.sort(edges);
+//        Arrays.sort(edges, new Comparator<Edge>() {
+//            @Override
+//            public int compare(Edge o1, Edge o2) {
+//                return o2.distance - o1.distance;
+//            }
+//        });
+
         for (Edge edge : edges) {
             System.out.println(edge.distance);
         }
